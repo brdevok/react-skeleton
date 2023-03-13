@@ -1,0 +1,11 @@
+[data-id="default-template"] {
+	&[data-theme="light"] {
+		background-color: $colorGray;
+		color: $colorBlack;
+	}
+
+	&[data-theme="dark"] {
+		background-color: $colorBlack;
+		color: $colorGray;
+	}
+}

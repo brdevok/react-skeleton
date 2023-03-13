@@ -1,0 +1,10 @@
+# Ignore folders/files
+node_modules
+dist
+.templates/tools/component
+.templates/tools/context
+.templates/tools/page
+
+# Include folders/files
+!.templates
+!.storybook

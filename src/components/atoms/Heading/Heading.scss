@@ -1,0 +1,26 @@
+[data-id="heading"] {
+	&:not([data-as]),
+	&[data-as="h1"] {
+		@include heading-1;
+	}
+
+	&[data-as="h2"] {
+		@include heading-2;
+	}
+
+	&[data-as="h3"] {
+		@include heading-3;
+	}
+
+	&[data-as="h4"] {
+		@include heading-4;
+	}
+
+	&[data-as="h5"] {
+		@include heading-5;
+	}
+
+	&[data-as="h6"] {
+		@include heading-6;
+	}
+}
